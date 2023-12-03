@@ -20,19 +20,6 @@ class Item {
   }
 }
 
-class Symbol {
-  final String char;
-  final int x;
-  final int y;
-
-  const Symbol({required this.char, required this.x, required this.y});
-
-  @override
-  String toString() {
-    return "$char ($x,$y)";
-  }
-}
-
 class Gear {
   final int x;
   final int y;
